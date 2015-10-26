@@ -1,12 +1,5 @@
 (function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"));
-	else if(typeof define === 'function' && define.amd)
-		define(["react"], factory);
-	else if(typeof exports === 'object')
-		exports["ReactBootstrap"] = factory(require("react"));
-	else
-		root["ReactBootstrap"] = factory(root["React"]);
+		ReactBootstrap = factory(React);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_22__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -454,9 +447,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -1011,9 +1004,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _PanelGroup = __webpack_require__(26);
 
@@ -1049,9 +1042,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -1284,9 +1277,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var ANONYMOUS = '<<anonymous>>';
 
@@ -1555,7 +1548,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
 	/**
 	 * Maps children that are typically specified as `props.children`,
@@ -1570,7 +1563,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {object} Object containing the ordered map of results.
 	 */
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	function mapValidComponents(children, func, context) {
 	  var index = 0;
@@ -1664,9 +1657,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -1715,9 +1708,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _utilsDomUtils = __webpack_require__(37);
 
@@ -1864,9 +1857,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var canUseDom = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
 
@@ -2121,9 +2114,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -2208,9 +2201,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _utilsValidComponentChildren = __webpack_require__(34);
 
@@ -2260,9 +2253,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -2391,9 +2384,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _Button = __webpack_require__(41);
 
@@ -2501,9 +2494,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -2576,9 +2569,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -2819,9 +2812,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.__esModule = true;
 	exports['default'] = valueValidation;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _CustomPropTypes = __webpack_require__(29);
 
@@ -2851,9 +2844,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -2923,9 +2916,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -2974,9 +2967,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -3278,9 +3271,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -3337,9 +3330,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -3572,9 +3565,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -3785,9 +3778,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _utilsTransitionEvents = __webpack_require__(52);
 
@@ -4110,9 +4103,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _BootstrapMixin = __webpack_require__(27);
 
@@ -4234,9 +4227,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _Transition = __webpack_require__(60);
 
@@ -4473,9 +4466,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _utilsTransitionEvents = __webpack_require__(52);
 
@@ -4833,9 +4826,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -4990,9 +4983,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _utilsDomUtils = __webpack_require__(37);
 
@@ -5096,9 +5089,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -5159,9 +5152,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _utilsDomUtils = __webpack_require__(37);
 
@@ -5265,9 +5258,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -5331,9 +5324,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _InputBase2 = __webpack_require__(45);
 
@@ -5407,9 +5400,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -5474,9 +5467,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _utilsValidComponentChildren = __webpack_require__(34);
 
@@ -5571,9 +5564,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -5623,9 +5616,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -5677,9 +5670,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -5773,9 +5766,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _BootstrapMixin = __webpack_require__(27);
 
@@ -5898,9 +5891,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _utilsCreateChainedFunction = __webpack_require__(61);
 
@@ -5959,9 +5952,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -6053,9 +6046,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -6542,9 +6535,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _utilsCustomPropTypes = __webpack_require__(29);
 
@@ -6658,9 +6651,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _Transition = __webpack_require__(60);
 
@@ -6768,9 +6761,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -6857,9 +6850,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -6915,9 +6908,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -7008,9 +7001,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -7062,9 +7055,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _BootstrapMixin = __webpack_require__(27);
 
@@ -7214,9 +7207,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _BootstrapMixin = __webpack_require__(27);
 
@@ -7395,9 +7388,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -7506,9 +7499,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _Portal = __webpack_require__(78);
 
@@ -7721,9 +7714,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -8015,9 +8008,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _utilsDomUtils = __webpack_require__(37);
 
@@ -8135,9 +8128,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _utilsCreateChainedFunction = __webpack_require__(61);
 
@@ -8437,13 +8430,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.__esModule = true;
 	exports['default'] = createContextWrapper;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
 	/**
 	 * Creates new trigger class that injects context into overlay.
 	 */
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	function createContextWrapper(Trigger, propName) {
 	  return function (contextTypes) {
@@ -9385,9 +9378,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -9424,9 +9417,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -9499,9 +9492,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -9554,9 +9547,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -9792,9 +9785,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -9907,9 +9900,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -10145,9 +10138,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -10265,9 +10258,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _Interpolate = __webpack_require__(70);
 
@@ -10437,9 +10430,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -10494,9 +10487,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -10647,9 +10640,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -10807,9 +10800,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _BootstrapMixin = __webpack_require__(27);
 
@@ -10993,9 +10986,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -11049,9 +11042,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -11162,9 +11155,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -11242,9 +11235,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
@@ -11351,9 +11344,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 
-	var _react = __webpack_require__(22);
+	var _react = React;
 
-	var _react2 = _interopRequireDefault(_react);
+	var _react2 = {'default': React}
 
 	var _classnames = __webpack_require__(23);
 
